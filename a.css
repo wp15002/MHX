@@ -1,0 +1,279 @@
+/*全体始*/
+body{
+	text-align:center;
+	background-color:#dddddd;
+	margin:0;
+	background-image: url(img/logo.png);
+	background-size: 400px 300px;
+	background-repeat: round;
+}
+
+
+#mon{
+	margin: 0 auto;
+	width:900px;
+	background-color: rgba(255,255,255,0.9);
+	-webkit-box-shadow: 0 0 50px 5px #bbbbbb;
+	box-shadow: 0 0 50px 5px #bbbbbb;
+    font-size: 20px;
+}
+
+/*全体終*/
+/*ヘッダ始*/
+#pageheader h1{
+	background: -webkit-linear-gradient(-70deg,#dddddd 0%,#0000ff 100%);
+	background: -moz-linear-gradient(-70deg,#dddddd 0%,#0000ff 100%);
+	background: -o-linear-gradient(-70deg,#dddddd 0%,#0000ff 100%);
+	background: -ms-linear-gradient(-70deg,#dddddd 0%,#0000ff 100%);
+	font-size:60px;
+	color:red;
+	margin-bottom:0px;
+	margin-top:0px;
+	padding-bottom:0px;
+	height: 90px;
+	border: solid 3px #000000;
+	overflow: hidden;
+ }
+
+
+nav ul{
+	display: table;
+	font-size: 20px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: table-cell;
+	list-style-type: none;
+	border: solid 1px;
+
+}
+
+nav ul li a{
+	display: block;
+	padding: 5px 20px;
+	width: 138px;
+	text-decoration: none;
+	background-color: #ffbbff;
+}
+
+nav ul li a:hover{
+	background-color: rgba(1,122,205,0.5);
+	color: #ffffff;
+
+}
+
+
+/*ヘッダ終*/
+/*メイン始*/
+article{
+	margin: 0 50px;
+}
+
+#postheader{
+	border: solid 1px;
+	clear: both;
+	padding: 0;
+	background: -webkit-linear-gradient(#ffffff 0%,#ffffaa 100%);
+	background: -moz-linear-gradient(#ffffff 0%,#ffaaff 100%);
+	background: -o-linear-gradient(#ffffff 0%,#ffaaff 100%);
+	background: -ms-linear-gradient(#ffffff 0%,#ffaaff 100%);
+	-webkit-box-shadow: 10px 10px 10px #000000,
+	                    0px 0px 4px 3px #ffffff inset;
+	box-shadow: 0px 0px 3px #000000,
+	            0px 0px 4px 3px #ffffff inset;	
+}
+
+#postheader h1{
+	margin: 0;
+	font-size: 40px;
+}
+#postheader p{
+	text-align: left;
+	padding: 0 150px 0;
+	margin-top: 0;
+	color: #440044;
+}
+
+article section{
+	border: solid 1px;
+	margin-top: 5px;
+	padding: 0;
+	overflow: hidden;
+}
+
+article section h1{
+	margin: 0;
+	font-size: 35px;
+}
+
+
+article section p{
+	margin: 0;
+	text-align: left;
+}
+/* HOME */
+
+article section#news{
+	height: 100px;
+	width: 600px;
+	margin: 10px auto;
+	overflow: scroll;
+}
+
+article section#news h1{
+	color: #0000ff;
+	font-size: 25px;
+}
+
+article section#news p{
+	text-align: left;
+	padding-left: 100px;
+	color: #000000;
+}
+
+article section#news p:nth-of-type(odd){
+	background-color: #aaddff;
+}
+
+article section#news p:nth-of-type(even){
+	background-color: #ffccdd;
+}
+
+article section#home{
+	border: none;
+	line-height: 50px;
+}
+
+
+article section#home p{
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+
+#hatubai{
+	font-size: 40px;
+	font-family: verdana;
+	color: #ffff00;
+	background: -webkit-linear-gradient(#666666 0%,#000000 100%);
+	margin: 0 100px;
+}
+
+/* HOME以外 */
+
+#nohome section{
+	background: -webkit-linear-gradient(#eeeeee 0%,#ffddee 100%);
+	background: -moz-linear-gradient(#eeeeee 0%,#ffddee 100%);
+	background: -o-linear-gradient(#eeeeee 0%,#ffddee 100%);
+	background: -ms-linear-gradient(#eeeeee 0%,#ffddee 100%);
+	-webkit-box-shadow: 10px 10px 10px #000000,
+	                    0px 0px 4px 3px #ffffff inset;
+	box-shadow: 0px 0px 3px #000000,
+	            0px 0px 4px 3px #ffffff inset;
+}
+
+/* MONS */
+
+img{
+	float:left;
+	margin:30px 50px 30px 0;
+}
+
+.mons h1{
+	padding: 15px 0;
+	border-bottom: solid 1px;
+}
+
+.mons p{
+	text-align: left;
+	margin: 30px;
+	line-height: 2;
+}
+
+/* 狩技 */
+
+#kari_ul{
+	border: solid 1px;
+	margin-top: 10px;
+	width: 800px;
+	box-sizing: border-box;
+}
+
+.waza_ul{
+	display: table;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.waza_ul li{
+	display: table-cell;
+	margin: 0;
+	list-style-type: none;
+	width: 200px;
+}
+
+.waza_ul li a{
+	text-decoration: none;
+	color: #ff00ff;
+	display: block;
+}
+
+.waza_ul li:hover{
+	background-color: skyblue;
+}
+
+.waza_ul li:hover a{
+    color: #ffff00;
+}
+
+
+#kariwaza section h1{
+	border-bottom: solid 1px;
+}
+
+#kariwaza section h2{
+	font-size: 20px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#kariwaza section p{
+	padding: 0 10px 20px;
+}
+
+/*メイン終*/
+/*フッダ始*/
+footer{
+	margin-top: 20px;
+	border-top: solid 1px;
+	padding: 10px;
+}
+/*フッダ終*/
+
+/* topボタン */
+#pagetop{
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+}
+
+#pagetop a{
+	font-size: 30px;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.7);
+	color: #ffffff;
+	padding: 20px;
+	border: solid 1px;
+	border-radius: 50px;
+
+}
+
+#pagetop a:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: rgba(255,255,255,0.5);
+}
